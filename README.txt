@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/206d6d75-c895-46e0-89c7-f65cb9def2cb/deploy-status)](https://app.netlify.com/sites/sledge-minecraft/deploys)

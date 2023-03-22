@@ -1,0 +1,114 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.header {
+    background-image: url("../Images/main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.container {
+    background-color: #fff;
+    margin:0px 10%;
+    height:100%;
+    padding-bottom:2% ;
+    box-shadow: 0 0 5px grey;
+}
+.top {
+    background-color: #32a87f;
+    height:10vh;
+    position:sticky;
+    top:0px;
+    color:#1c6fa6;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow:0 2px 5px grey;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+    font-size: 30px;
+}
+.home:hover {
+    border:#1c6fa6 2px solid;
+    border-radius:4px;
+    background-color: #1ca1a6;
+    padding:0px 2px;
+}
+.first_box {
+    background-color: #97cacc;
+    height: 30%;
+    margin:0 4%;
+    margin-top: 2%;
+    border-radius:20px 20px 0px 0px;
+    box-shadow:0px 0px 5px grey;
+}
+.box_top {
+    border-radius:20px 20px 0px 0px;
+    width:100%;
+    top:0;
+    background-color: #32a87f;
+    display:flex;
+    align-items:center;
+    font-size:20px;
+}
+.text_top:hover {
+    color:#0e3e5e;
+}
+.text_top {
+    padding-left:20px;
+    color:#1c6fa6 ;
+    font-size: 20px;
+}
+.img {
+    width:auto;
+    height:300px; 
+    padding:1% 1% 0 1%;
+    
+}
+.text {
+    padding:0px 10px;
+    font-size:17px;
+    text-align: left;
+}
+.footer_box {
+    margin-top:10px;
+    background-color: #b6dadb;
+    width:100%;
+    display:flex;
+    align-items:center;
+    box-shadow:0 1px 0px grey inset;
+}
+.line {
+    border-left:grey 1px solid;
+    height:15px;
+}
+.content_box {
+    text-align: center;
+}
+@media screen and (max-width:1000px) {
+    .img {
+        width:450px;
+    }
+}
+@media screen and (max-width:750px) {
+    .img {
+        width:350px;
+    }
+}
+@media screen and (max-width:550px) {
+    .img {
+        width:250px;
+        height:250px;
+    }
+}
+@media screen and (max-width:615px) {
+    .home {
+        display:none;
+    }
+    .first_box {
+        margin-top:4%;
+    }
+}
